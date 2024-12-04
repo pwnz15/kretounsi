@@ -5,13 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc",
     "start": "node dist/server.js",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "seed": "tsx src/scripts/seed.ts",
-    "test": "vitest",
-    "validate:env": "tsx src/scripts/validateEnv.ts",
     "postinstall": "npm run build"
   },
   "dependencies": {
