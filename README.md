@@ -49,7 +49,7 @@ A robust Node.js backend for student housing platform built with Fastify and Typ
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dartaleb-api.git
+git clone https://github.com/pwnz15/kretounsi.git
 
 # Install dependencies
 npm install
