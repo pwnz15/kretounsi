@@ -2,9 +2,9 @@ FROM node:20-slim
 
 WORKDIR /app
 
-# Install dependencies first
+# Install dependencies including TypeScript
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci && npm install typescript -g
 
 # Copy source code
 COPY . .
