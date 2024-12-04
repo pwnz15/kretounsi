@@ -1,0 +1,76 @@
+export const TUNISIA_CITIES = [
+  'Tunis',
+  'Sfax',
+  'Sousse',
+  'Kairouan',
+  'Bizerte',
+  'Gabès',
+  'Ariana',
+  'Gafsa',
+  'La Marsa',
+  'Monastir',
+  'Ben Arous',
+  'Kasserine',
+  'Hammamet',
+  'Nabeul',
+  'Médenine',
+] as const;
+
+export const TUNISIA_GOVERNORATES = [
+  'Ariana',
+  'Béja',
+  'Ben Arous',
+  'Bizerte',
+  'Gabès',
+  'Gafsa',
+  'Jendouba',
+  'Kairouan',
+  'Kasserine',
+  'Kébili',
+  'Le Kef',
+  'Mahdia',
+  'La Manouba',
+  'Médenine',
+  'Monastir',
+  'Nabeul',
+  'Sfax',
+  'Sidi Bouzid',
+  'Siliana',
+  'Sousse',
+  'Tataouine',
+  'Tozeur',
+  'Tunis',
+  'Zaghouan',
+] as const;
+
+export const PROPERTY_TYPES = {
+  APPARTEMENT: 'Appartement',
+  MAISON: 'Maison',
+  STUDIO: 'Studio',
+  CHAMBRE: 'Chambre',
+} as const;
+
+export const PROPERTY_STATES = {
+  NEUF: 'Neuf',
+  BON_ETAT: 'Bon état',
+  A_RENOVER: 'À rénover',
+} as const;
+
+export const AMENITIES = [
+  'WiFi',
+  'Climatisation',
+  'Chauffage',
+  'Parking',
+  'Meublé',
+  'Machine à laver',
+  'Sèche-linge',
+  'Cuisine équipée',
+  'Ascenseur',
+  'Balcon',
+  'Terrasse',
+  'Jardin',
+  'Sécurité 24/7',
+  'Interphone',
+  'Proche transport',
+  'Proche université',
+] as const;
